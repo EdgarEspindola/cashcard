@@ -23,7 +23,8 @@
 hs_err_pid*
 replay_pid*
 
-.gradle
+.gradle/
+
 **/build/
 !src/**/build/
 
@@ -46,8 +47,7 @@ gradle-app.setting
 .classpath
 
 # Gradle build output
-/build/
-/.gradle/
+build/
 
 # Ignore Gradle wrapper logs
 gradle/wrapper/gradle-wrapper.jar
